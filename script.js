@@ -82,7 +82,50 @@
 // 6)Rehacer el ejercicio 12 de condicionales utilizando funciones para validar edad y cobrar. 
 // (Ejercicio: Solicitar al usuario que ingrese su edad y una bebida. (Entre: Cerveza, jugo, agua). Si pide alcohol y es menor de edad que le salte un alerta indicando que no puede realizar la compra. Indicar el costo y solicitar al usuario que indique con cuanto va a pagar e indicar cuánto sería su vuelto. 
 // (Ej: La cerveza cuesta $50  y paga con 100, se le debe devolver $50. Si indica que paga con menos de lo que cuesta el producto, indicar un error).)
+        // let eda;
+        // let vueltoAgua
+        // let precio; 
+        // let bebida;   
+        // let vueltoJugo;
+        // let vueltoCerveza;                                 
+        // function edad() {
+        //         eda=parseInt(prompt("Ingrese su edad"));
+        //         if (eda<18) {
+        //                 alert("Al ser menor de edad solo puede pedir: \nagua\njuego");
+        //         } else if(eda>=18) {
+        //                 alert("Puede pedir\nagua\njuego\ncerveza"); 
+        //         }
+        // }
+
+        // function cobrar() {
+        //             bebida=prompt("Elija la bedida: ");                 
+        //             if (bebida==="agua") {
+        //                     precio=parseInt(prompt("El agua vale 100 pesos, con cuanto quiere pagar"));
+        //                     vueltoAgua= precio - 100;
+        //                     alert(`Su vuelto de es ${vueltoAgua}`)
+        //             }
+
+        //             if (bebida==="juego") {
+        //                 precio=parseInt(prompt("El jugo vale 200 pesos, con cuanto quiere pagar"));
+        //                 vueltoJugo= precio - 100;
+        //                 alert(`Su vuelto de es ${vueltoJugo}`)
+        //            }
+
+        //            if (bebida==="cerveza") {
+        //                 precio=parseInt(prompt("La cerveza vale 300 pesos, con cuanto quiere pagar"));
+        //                 vueltoCerveza= precio - 100;
+        //                 alert(`Su vuelto de es ${vueltoCerveza}`)
+        //            }
+                
+                
+        // }
+        // edad();
+        // cobrar();
 // 7)Crear una función que reciba tres parámetros: Horas, minutos y segundos, y devolver todo pasado a segundos.
+function tiempo(horas,minutos,segundos) {
+        
+}
+
 // 8)Realizar una función de carga de notas en un array. Luego realizar otra función que calcule el promedio de todas y lo devuelva. 
 // 9)Escribir una función para cobrar en caja. Agregando funciones que: 
 // * Si no es cliente A, agregue el IVA. 
