@@ -16,18 +16,17 @@
 // Ejercicios de funciones
 
 // 1)Crear una función que reciba tu edad y retorne tu edad en años perro. (Multiplicado por 7).
-
+        // let edad=parseInt(prompt("ingrese la edad"))
         // function edadPerro(a) {
-        //     return a *7;
+        //     return a*7;
         // }
-        // alert(edadPerro(7));
+        // alert(edadPerro(edad));
 // 2)Crear una función que reciba un nombre y devuelva un saludo.
-        // let nombre;
+        // let nombre=prompt("Ingrese un nombre");
         // function saludo(nombre) {
-        //     nombre= prompt("Ingrese su nombre para saludarlo")
         //     console.log(`Hola como estas ${nombre}`);
         // }
-        // saludo()
+        // saludo(nombre)
 // 3)Crear una función que salude.
 
         // function saludar() {
@@ -227,6 +226,8 @@
         // }
         // cobrar()// llamo a la funcion
 
+
+
 // 10)Vamos a realizar (intentando no llorar) un conversor de monedas. Primero vamos a generar una función que reciba dos parámetros, tipo de moneda y monto y la convierta a pesos. (Tipos de moneda aceptados dólares, euros y reales). 
 // Luego vamos a realizar una función que llame a esta función dos veces, con parámetros diferentes, sume ambos valores y devuelva el resultado.
 // Ejemplo: us$4, €3. Devuelve el total de: $1180. (Dificil no llorar a este punto).
@@ -249,22 +250,22 @@
 // 11)Crear una función con 1 parámetro cantidad de números, que pida iterativamente la cantidad de veces ingresada. Ejemplo si por parámetro le paso 5, que pida 5 números. En cada iteración aplicarle a cada número y una función que los triplique. Guardar todos los resultados en un array.
 // Ejemplo: Paso por parámetro “4” a la función.
 // Luego ingreso 4 números: 30,15,11,14. El array final debe ser: 90,45,33,42.
-        // let numeros;
-        // let array=[]
+        let numeros=parseInt(prompt("ingrese un numero"));
+        let array=[]
 
-        // function triplica(n) {  // funcion para triplicar el numero  ingresado
-        //         return numeros*3
-        // }
+        function triplica(n) {  // funcion para triplicar el numero  ingresado
+                return numeros*3
+        }
 
-        // function numero(n) {
-        //         for ( i = 0; i < n; i++) {// hago un for para que me corte segun el numero ingresado por parametro
-        //                 numeros=parseInt(prompt("Ingrese numero"))
-        //                 total = triplica(n)
-        //                 array.push(total)
-        //         }
-        //         alert(`Los numeros ingresados triplicado son ${array}`)
-        // }
-        // numero(4)
+        function numero(n) {
+                for ( i = 0; i < n; i++) {// hago un for para que me corte segun el numero ingresado por parametro
+                        numeros=parseInt(prompt("Ingrese numero"))
+                        total = triplica(n)
+                        array.push(total)
+                }
+                alert(`Los numeros ingresados triplicado son ${array}`)
+        }
+        numero(numeros)
 // 12)Realizar una función que pida la temperatura máxima y mínima del día, indicando magnitud y medida (Farenheit o Celsius), y mostrar la temperatura media.
         // let sistema= prompt("Su sistema de temperatura es? farenheit/celsius")
         // let temperaturaMaxima=parseInt(prompt("Ingrese la temperatura maxima"));
@@ -374,15 +375,18 @@
         // }
         // familiar(grupoFamiliar)
 
-// Realizar un conversor de monedas mejorado! Recibir tres parámetros: monto, moneda del monto, y moneda a convertir. (Las monedas disponibles son: peso, euro, 
+// Realizar un conversor de monedas mejorado! Recibir tres parámetros: monto, moneda del monto, y moneda a convertir. (Las monedas disponibles son: peso, euro, dolar, real, yen).
         // let monto=parseInt(prompt("ingrese el monto"));
         // let moneda=prompt("Ingrese la moneda del monto")
         // let monedaAConvertir;
         // let euro=195;
+        // let dolar = 175;
+        // let real= 20;
+        // let yean= 50
         // function conversor(monto,MonedaMonto,monedaAConvertir) {
         //         if (MonedaMonto==="pesos") {
         //                alert(`El monto de euros es de ${monedaAConvertir=monto/euro}`); 
-        //         }if (moneda==="euros") {
+        //         }if (monedaMonto==="euros") {
         //                 alert(`El monto de pesos es de ${monedaAConvertir=monto*euro}`);
         //         }
         // }       
